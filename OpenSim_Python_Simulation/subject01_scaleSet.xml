@@ -8,102 +8,102 @@
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.984847 0.984847 0.984847</scales>
+				<scales> 0.982483 0.982483 0.982483</scales>
 				<segment>pelvis</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.984847 0.984847 0.984847</scales>
+				<scales> 0.982483 0.982483 0.982483</scales>
 				<segment>sacrum</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.991274 0.991274 0.991274</scales>
+				<scales> 0.988773 0.988773 0.988773</scales>
 				<segment>femur_r</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.991274 0.991274 0.991274</scales>
+				<scales> 0.988773 0.988773 0.988773</scales>
 				<segment>patella_r</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.975707 0.975707 0.975707</scales>
+				<scales> 0.973334 0.973334 0.973334</scales>
 				<segment>tibia_r</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.975707 0.975707 0.975707</scales>
+				<scales> 0.973334 0.973334 0.973334</scales>
 				<segment>talus_r</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 1.0972 1.0972 1.0972</scales>
+				<scales> 1.09458 1.09458 1.09458</scales>
 				<segment>calcn_r</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 1.0972 1.0972 1.0972</scales>
+				<scales> 1.09458 1.09458 1.09458</scales>
 				<segment>toes_r</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.991274 0.991274 0.991274</scales>
+				<scales> 0.988773 0.988773 0.988773</scales>
 				<segment>femur_l</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.991274 0.991274 0.991274</scales>
+				<scales> 0.988773 0.988773 0.988773</scales>
 				<segment>patella_l</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.975707 0.975707 0.975707</scales>
+				<scales> 0.973334 0.973334 0.973334</scales>
 				<segment>tibia_l</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.975707 0.975707 0.975707</scales>
+				<scales> 0.973334 0.973334 0.973334</scales>
 				<segment>talus_l</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 1.0972 1.0972 1.0972</scales>
+				<scales> 1.09458 1.09458 1.09458</scales>
 				<segment>calcn_l</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 1.0972 1.0972 1.0972</scales>
+				<scales> 1.09458 1.09458 1.09458</scales>
 				<segment>toes_l</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 1.01371 1.01371 1.01371</scales>
+				<scales> 1.02034 1.02034 1.02034</scales>
 				<segment>lumbar5</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 1.01371 1.01371 1.01371</scales>
+				<scales> 1.02034 1.02034 1.02034</scales>
 				<segment>lumbar4</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 1.01371 1.01371 1.01371</scales>
+				<scales> 1.02034 1.02034 1.02034</scales>
 				<segment>lumbar3</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 1.01371 1.01371 1.01371</scales>
+				<scales> 1.02034 1.02034 1.02034</scales>
 				<segment>lumbar2</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 1.01371 1.01371 1.01371</scales>
+				<scales> 1.02034 1.02034 1.02034</scales>
 				<segment>lumbar1</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 1.01371 1.01371 1.01371</scales>
+				<scales> 1.02034 1.02034 1.02034</scales>
 				<segment>torso</segment>
 				<apply>true</apply>
 			</Scale>
@@ -218,52 +218,52 @@
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 1.01371 1.01371 1.01371</scales>
+				<scales> 1.02034 1.02034 1.02034</scales>
 				<segment>Abdomen</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 1.01371 1.01371 1.01371</scales>
+				<scales> 1.02034 1.02034 1.02034</scales>
 				<segment>LB_wrap</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.838753 0.838753 0.838753</scales>
+				<scales> 0.836857 0.836857 0.836857</scales>
 				<segment>humerus_r</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.975194 0.975194 0.975194</scales>
+				<scales> 0.972873 0.972873 0.972873</scales>
 				<segment>ulna_r</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.975194 0.975194 0.975194</scales>
+				<scales> 0.972873 0.972873 0.972873</scales>
 				<segment>radius_r</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.847559 0.847559 0.847559</scales>
+				<scales> 0.84552 0.84552 0.84552</scales>
 				<segment>hand_r</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.838753 0.838753 0.838753</scales>
+				<scales> 0.836857 0.836857 0.836857</scales>
 				<segment>humerus_l</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.975194 0.975194 0.975194</scales>
+				<scales> 0.972873 0.972873 0.972873</scales>
 				<segment>ulna_l</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.975194 0.975194 0.975194</scales>
+				<scales> 0.972873 0.972873 0.972873</scales>
 				<segment>radius_l</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.847559 0.847559 0.847559</scales>
+				<scales> 0.84552 0.84552 0.84552</scales>
 				<segment>hand_l</segment>
 				<apply>true</apply>
 			</Scale>

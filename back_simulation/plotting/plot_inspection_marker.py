@@ -40,14 +40,14 @@ def compute_and_plot_distances(folder_name):
 
             mask = (dist_RL1_RL2 >= 2) & (dist_LL2_LL1 >= 2)
             
-            time = np.arange(0, len(dist_RL1_RL2 ) * 0.01, 0.01)[mask]
+            time = np.arange(0, len(dist_RL1_RL2 ) * (1/128), (1/128))[mask]
             col2_filtered = dist_RL1_RL2[mask]
             col3_filtered = dist_LL2_LL1[mask]
             
             # Plot the distances
             plt.figure(figsize=(12, 6))
-            plt.plot(np.array(range(len(dist_RL1_RL2)))/100, dist_RL1_RL2, label='Distance between RL1 and RL2', color='blue')
-            plt.plot(np.array(range(len(dist_LL2_LL1)))/100, dist_LL2_LL1, label='Distance between LL2 and LL1', color='red')
+            plt.plot(np.array(range(len(dist_RL1_RL2)))/128, dist_RL1_RL2, label='Distance between RL1 and RL2', color='blue')
+            plt.plot(np.array(range(len(dist_LL2_LL1)))/128, dist_LL2_LL1, label='Distance between LL2 and LL1', color='red')
             plt.xlabel('Time')
             plt.ylabel('Euclidean Distance')
             plt.title(f'Euclidean Distances for {file_name}')
@@ -56,4 +56,4 @@ def compute_and_plot_distances(folder_name):
             plt.show()
 
 # Example usage
-compute_and_plot_distances('aux_static_squat_110')
+compute_and_plot_distances('aux_static_stoop_40')

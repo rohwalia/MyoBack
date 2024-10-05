@@ -659,11 +659,11 @@
 							<objects>
 								<MarkerPair>
 									<!--Names of two markers, the distance between which is used to compute a body scale factor.-->
-									<markers> RGTR RKNE</markers>
+									<markers> RKNE RGTR</markers>
 								</MarkerPair>
 								<MarkerPair>
 									<!--Names of two markers, the distance between which is used to compute a body scale factor.-->
-									<markers> LGTR LKNE</markers>
+									<markers> LKNE LGTR</markers>
 								</MarkerPair>
 							</objects>
 						</MarkerPairSet>
@@ -982,13 +982,13 @@
 				<!--All properties of this object have their default values.-->
 			</ScaleSet>
 			<!--TRC file (.trc) containing the marker positions used for measurement-based scaling. This is usually a static trial, but doesn't need to be.  The marker-pair distances are computed for each time step in the TRC file and averaged across the time range.-->
-			<marker_file>output.trc</marker_file>
+			<marker_file>subject01_Cal01.trc</marker_file>
 			<!--Time range over which to average marker-pair distances in the marker file (.trc) for measurement-based scaling.-->
-			<time_range> 0 1.12</time_range>
+			<time_range> 0.5 2.5</time_range>
 			<!--Flag (true or false) indicating whether or not to preserve relative mass between segments.-->
 			<preserve_mass_distribution>true</preserve_mass_distribution>
 			<!--Name of OpenSim model file (.osim) to write when done scaling.-->
-			<output_model_file>Unassigned</output_model_file>
+			<output_model_file>/home/rwalia/MyoBack/OpenSim_Python_Simulation/FBLSmodel_v2_scaled.osim</output_model_file>
 			<!--Name of file to write containing the scale factors that were applied to the unscaled model (optional).-->
 			<output_scale_file>subject01_scaleSet.xml</output_scale_file>
 		</ModelScaler>
@@ -1444,15 +1444,15 @@
 				</objects>
 			</IKTaskSet>
 			<!--TRC file (.trc) containing the time history of experimental marker positions (usually a static trial).-->
-			<marker_file>output.trc</marker_file>
+			<marker_file>subject01_Cal01.trc</marker_file>
 			<!--Name of file containing the joint angles used to set the initial configuration of the model for the purpose of placing the markers. These coordinate values can also be included in the optimization problem used to place the markers. Before the model markers are placed, a single frame of an inverse kinematics (IK) problem is solved. The IK problem can be solved simply by matching marker positions, but if the model markers are not in the correct locations, the IK solution will not be very good and neither will marker placement. Alternatively, coordinate values (specified in this file) can be specified and used to influence the IK solution. This is valuable particularly if you have high confidence in the coordinate values. For example, you know for the static trial the subject was standing will all joint angles close to zero. If the coordinate set (see the CoordinateSet property) contains non-zero weights for coordinates, the IK solution will try to match not only the marker positions, but also the coordinates in this file. Least-squared error is used to solve the IK problem. -->
 			<coordinate_file>Unassigned</coordinate_file>
 			<!--Time range over which the marker positions are averaged.-->
-			<time_range> 0 1.12</time_range>
+			<time_range> 0.5 2.5</time_range>
 			<!--Name of the motion file (.mot) written after marker relocation (optional).-->
 			<output_motion_file>subject01_static_output.mot</output_motion_file>
 			<!--Output OpenSim model file (.osim) after scaling and maker placement.-->
-			<output_model_file>/home/rwalia/MyoBack/OpenSim_Python_Simulation/FBLSmodel_v2_scaled.osim</output_model_file>
+			<output_model_file>/home/rwalia/MyoBack/OpenSim_Python_Simulation/subject01_scaled.osim</output_model_file>
 			<!--Output marker set containing the new marker locations after markers have been placed.-->
 			<output_marker_file>Unassigned</output_marker_file>
 			<!--Maximum amount of movement allowed in marker data when averaging frames of the static trial. A negative value means there is not limit.-->

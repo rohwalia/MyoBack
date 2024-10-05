@@ -1,0 +1,4 @@
+An error occurred: std::exception in 'bool OpenSim::ScaleTool::run() const': SimTK Exception thrown at Xml.cpp:115:
+  Error detected by Simbody method Xml::writeToFile(): Failed to write to the Xml file 'OpenSim_Python_Simulation//home/rwalia/MyoBack/OpenSim_Python_Simulation/subject01_scaled.osim' with error ' (line=1, col=1)'.
+  (Required condition 'saveOK' was not met.)
+
