@@ -19,3 +19,7 @@ models/
 
 !exo_forces_static_stoop.npy
 !exo_forces_static_squat.npy
+!exo_forces_dynamic_squat.npy
+!exo_forces_dynamic_stoop.npy
+!exo_joint_dynamic_squat.npy
+!exo_joint_dynamic_stoop.npy

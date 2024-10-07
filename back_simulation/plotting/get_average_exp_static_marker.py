@@ -93,5 +93,5 @@ def get_data(folder):
                 print("File ignored:", file_path)
         except Exception as e:
             print(f"Erreur lors de la lecture du fichier {file_path}: {e}")
-    print(max_left, max_right)
+    print(max_left+max_right)
     return max_left, max_right

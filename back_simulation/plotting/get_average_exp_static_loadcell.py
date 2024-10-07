@@ -29,7 +29,7 @@ def get_data(folder):
         
         try:
             # Lire le fichier avec pandas
-            df = pd.read_csv(file_path, delimiter=';', decimal='.')
+            df = pd.read_csv(file_path, delimiter=';', decimal=',')
             
             if df.shape[1] < 3:
                 print(f"Le fichier {file_path} n'a pas assez de colonnes.")
@@ -75,6 +75,5 @@ def get_data(folder):
             
         except Exception as e:
             print(f"Erreur lors de la lecture du fichier {file_path}: {e}")
-    print(max_left)
-    print(max_right)
+    print(max_left+max_right)
     return max_left, max_right
