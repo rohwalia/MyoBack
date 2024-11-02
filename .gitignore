@@ -8,7 +8,7 @@ __pycache__/
 *.log
 *.osim
 *.csv
-Geometry/
+#Geometry/
 __pycache__/
 wandb/
 logs/

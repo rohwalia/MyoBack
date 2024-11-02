@@ -1,0 +1,42 @@
+import numpy as np
+import mujoco
+
+# Charger le modèle et les données une seule fois
+model_path = 'myosuite/myosuite/simhive/myo_sim/back/myobacklegs-Exoskeleton.xml'
+model = mujoco.MjModel.from_xml_path(model_path)
+data = mujoco.MjData(model)
+
+# Récupérer les positions des sites à chaque étape de simulation
+def get_site_position(site_name):
+    # Obtenir l'index du site dans le modèle
+    site_id = mujoco.mj_name2id(model, mujoco.mjtObj.mjOBJ_SITE, site_name)
+    
+    # Récupérer la position du site à partir des données de simulation
+    position = data.site_xpos[site_id]
+    
+    return position
+
+def get_sites_distance(site_name_1, site_name_2):
+    pos1 = get_site_position(site_name_1)
+    pos2 = get_site_position(site_name_2)
+    
+    # Calculer la distance Euclidienne entre les deux positions
+    distance = np.linalg.norm(pos1 - pos2)
+    
+    return distance
+
+def main(res):
+    # Initialiser la simulation
+    mujoco.mj_forward(model, data)
+
+    # Simuler quelques étapes et calculer la distance entre 'top' et 'bottom'
+    for i in range(res):
+        # Avancer la simulation avec une étape de temps
+        mujoco.mj_step(model, data)
+        
+        # Calculer la distance entre deux sites
+        distance = get_sites_distance('top', 'bottom')
+        print(f"Distance entre 'top' et 'bottom' : {distance:.3f}")
+
+if __name__ == '__main__':
+    main(res=500)
