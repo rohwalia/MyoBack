@@ -1,7 +1,7 @@
-# Project Title: Reinforcement Learning Training
+# Reinforcement Learning Training for MyoBack
 
 ## Overview
-This project includes scripts for training a reinforcement learning agent using a specified environment and baseline models. Use the instructions below to set up and run the training scripts on your local machine.
+This fold includes a sample training script and baseline for you to test the myoBack developed by the team. Use the instructions below to set up and run the training scripts or load the baseline on your own machine.
 
 ## Prerequisites
 Before you start, make sure you have the following installed:
