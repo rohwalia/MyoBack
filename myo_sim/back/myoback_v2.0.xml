@@ -45,6 +45,7 @@
   </asset>
   <worldbody>
     <light pos="0 0 0" dir="0 0 -1" directional="true"/>
+    <camera name = "side " pos="0.957 -1.107 1.548" xyaxes="0.750 0.661 0.000 -0.141 0.160 0.977"/>
     <body name="ground" quat="0.707035 0.707179 0 0">
       <geom name="ground-plane" size="10 10 0.125" quat="0.707035 -0.707179 0 0" type="plane" rgba="1 0.7 0.4 1"/>
     </body>
