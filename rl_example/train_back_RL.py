@@ -1,6 +1,6 @@
 import os
 import sys
-sys.path.append("RL_Example/") 
+sys.path.append("rl_example/") 
 sys.path.append('../')
 sys.path.append('.')
 

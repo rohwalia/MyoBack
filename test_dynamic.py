@@ -18,7 +18,7 @@ def main(res):
     width = 640
     camera_id = "front_camera"
 
-    model_path = './myosuite/myosuite/simhive/myo_sim/back/myobacklegs-Exoskeleton.xml'
+    model_path = './myo_sim/back/myobacklegs-Exoskeleton.xml'
     model = mujoco.MjModel.from_xml_path(model_path)
     data = mujoco.MjData(model)
 
