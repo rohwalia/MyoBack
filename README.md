@@ -11,6 +11,8 @@
 <sup>1</sup>McGill University
 <sup>2</sup>University of Twente
 
+<img src="" alt="drawing" width="100%"/>
+
 ## Overview
 MyoBack is a human back model part of the MyoSuite framework, derived from a physiologically accurate OpenSim model.
 
