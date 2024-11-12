@@ -16,5 +16,7 @@
 ## Overview
 MyoBack is a human back model part of the MyoSuite framework, derived from a physiologically accurate OpenSim model. MyoBack was validated empirically by integrating a passive back exoskeleton in simulation and comparing forces exerted on the back with values from experimental trials.
 
+MyoBack model can be applied to a range of contexts, including both passive and active exoskeletons, or even to entirely different use cases. To give a basis, we have added an example where a RL agent is trained to control the muscles in the model to  
+
 ## Installation
 We recommend installing MyoConverter via conda / mamba if you're running Linux (tested on Ubuntu 20.04 & 22.04).
