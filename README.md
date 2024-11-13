@@ -33,3 +33,5 @@ but you can use conda as well:
 ```console
 $ conda env create -f conda_environment.yaml
 ```
+
+## Training
