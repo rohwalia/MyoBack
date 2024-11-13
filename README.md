@@ -33,8 +33,8 @@ but you can use conda as well:
 ```console
 $ conda env create -f conda_environment.yaml
 ```
-
-## Training
+## RL example
+### Training the Agent
 To start training the agent, use the following command:
 `python train_back_RL.py --group myoback_1 --num_envs 1 --learning_rate 0.0002 --clip_range 0.1 --seed 7`
 - `--group`: Wandb training group name
