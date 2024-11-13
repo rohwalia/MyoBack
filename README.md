@@ -21,4 +21,15 @@ MyoBack model can be applied to a range of contexts, including both passive and 
 The folder [rl_example](./rl_example) includes a sample training script and baseline with which the MyoBack model developed can be tested. Use the instructions below to set up and run the training scripts or load the baseline on your own machine.
 
 ## Installation
-We recommend installing MyoConverter via conda / mamba if you're running Linux (tested on Ubuntu 20.04 & 22.04).
+Install our conda environment on a Linux machine. On Ubuntu 20.04 you need to install the following apt packages for mujoco:
+```console
+$ sudo apt install -y libosmesa6-dev libgl1-mesa-glx libglfw3 patchelf
+```
+We recommend [Mambaforge](https://github.com/conda-forge/miniforge#mambaforge) instead of the standard anaconda distribution for faster installation: 
+```console
+$ mamba env create -f conda_environment.yaml
+```
+but you can use conda as well: 
+```console
+$ conda env create -f conda_environment.yaml
+```
