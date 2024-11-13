@@ -36,8 +36,10 @@ $ conda env create -f conda_environment.yaml
 ## RL example
 ### Training the Agent
 To start training the agent, use the following command:
-`cd rl_example
-python train_back_RL.py --group myoback_1 --num_envs 1 --learning_rate 0.0002 --clip_range 0.1 --seed 7`
+```
+cd rl_example
+python train_back_RL.py --group myoback_1 --num_envs 1 --learning_rate 0.0002 --clip_range 0.1 --seed 7
+```
 - `--group`: Wandb training group name
 - `--num_envs`: Number of envs to train in parallel
 - `--learning_rate`: learning rate for PPO
