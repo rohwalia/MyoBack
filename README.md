@@ -20,6 +20,8 @@ MyoBack model can be applied to a range of contexts, including both passive and 
 
 The folder [rl_example](./rl_example) includes a sample training script and baseline with which the MyoBack model developed can be tested. Use the instructions below to set up and run the training scripts or load the baseline on your own machine.
 
+To simply view the model, you can use the MuJoCo `simulate` GUI or the MuJoCo Python bindings with an example given in [test_dynamic.py](./test_dynamic.py).
+
 ## Installation
 Install our conda environment on a Linux machine. On Ubuntu 20.04 you need to install the following apt packages for mujoco:
 ```console
