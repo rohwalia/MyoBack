@@ -42,3 +42,14 @@ To start training the agent, use the following command:
 - `--learning_rate`: learning rate for PPO
 - `--clip_range`: clip range for PPO
 - `--seed`: env seeding
+
+
+### Baseline Model Video
+To view the performance of the baseline model, navigate to:
+`videos/baseline_side_video.mp4`
+
+### Contact Information
+For more information or assistance, contact:  <br />
+
+Email: huiyi.wang@mail.mcgill.ca <br />
+GitHub: cherylwang20
