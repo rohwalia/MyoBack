@@ -4,8 +4,8 @@
 [Morgane Billot]()<sup>1</sup>,
 [Kevin Garzon-Aguirre]()<sup>1</sup>,
 [Swathika Subramanian]()<sup>2</sup>,
-[Huiyi Wang]()<sup>1</sup>
-[Mohamed Irfan Refai]()<sup>2</sup>
+[Huiyi Wang]()<sup>1</sup>,
+[Mohamed Irfan Refai]()<sup>2</sup>,
 [Guillaume Durandau]()<sup>1</sup>
 
 <sup>1</sup>McGill University
