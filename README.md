@@ -49,7 +49,7 @@ python train_back_RL.py --group myoback_1 --num_envs 1 --learning_rate 0.0002 --
 
 ### Baseline Model Video
 To view the performance of the baseline model, navigate to:
-`videos/baseline_side_video.mp4`
+[baseline_side_video.mp4](./rl_example/videos/baseline_side_video.mp4)
 
 ### Contact Information
 For more information or assistance, contact:  <br />
